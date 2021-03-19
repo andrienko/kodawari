@@ -1,0 +1,55 @@
+{
+  "Без порядка": {
+    "MilaNote": "https://app.milanote.com/",
+    "Rawg.io": "https://rawg.io/",
+    "Retonator": "https://www.retronator.com/",
+    "UsesThis": "https://usesthis.com/",
+    "Коллекция советской цифровой электроники": "http://www.leningrad.su/museum/main.php",
+    "Windows 10 AME (Ameliorated)": "https://ameliorated.info"
+  },
+  "Веб-технологии": {
+    "Mithril": "https://mithril.js.org/",
+    "BundlePhobia" : "http://bundlephobia.com/",
+    "Blueprint": "https://blueprintjs.com/",
+    "React-window": "https://react-window.now.sh/#/examples/list/fixed-size",
+    "Re-com": "http://re-com.day8.com.au/",
+    "Blessed": "https://www.npmjs.com/package/blessed"
+  },
+  "Песочницы": {
+    "StackBlitz": "https://stackblitz.com/",
+    "Plunker": "http://plnkr.co/",
+    "CSSDeck": "http://cssdeck.com/",
+    "CodeSandbox": "https://codesandbox.io"
+  },
+  "CyberPunk": {
+    "ArisuChan archive": "https://archive.arisuchan.jp/",
+    "LainChan": "https://lainchan.org/",
+    "Журнал \"Ржавая Сеть\"": "http://rustynet.github.io/",
+    "cyb3rz3n": "http://cyb3rz3n.narod.ru/",
+    "49406": "http://49406.org/"
+  },
+  "3D": {
+    "PolyCount": "https://polycount.com/",
+    "Cables": "https://cables.gl/"
+  },
+  "Люди и домашние страницы": {
+    "DrPetter's Homepage": "http://www.drpetter.se/index.html",
+    "Ссылки на сайте Ian Rose": "https://www.ianrose.me/resources/",
+    "mass:werk": "https://www.masswerk.at/",
+    "Сайт Саши Бизикова": "https://bizikov.ru/",
+    "Mathieu 'p01' Henri": "http://www.p01.org/",
+    "PlayfulJS": "http://www.playfuljs.com/",
+    "Ken Perlin's Homepage": "https://mrl.nyu.edu/~perlin/",
+    "Holon": "https://holon.drastic.net/"
+  },
+
+  "Дополнения для Chrome": {
+    "Toggle JavaScript": "https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo",
+    "uBlock Origin": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm",
+    "ColorPick EyeDropper": "https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg",
+    "Ignore X-Frame Headers": "https://chrome.google.com/webstore/detail/ignore-x-frame-headers/gleekbfjekiniecknbkamfmkohkpodhe",
+    "RightToCopy": "https://chrome.google.com/webstore/detail/righttocopy/plmcimdddlobkphnofejmeidjblideca",
+    "Show Password": "https://chrome.google.com/webstore/detail/showpassword/bbiclfnbhommljbjcoelobnnnibemabl",
+    "RevEye Image search": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf"
+  }
+}

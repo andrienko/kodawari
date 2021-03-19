@@ -1,0 +1,13 @@
+{
+  "name": "andrienko.org",
+  "version": "0.0.1",
+  "description": "andrienko.org website source",
+  "scripts": {
+    "build": "kodawari"
+  },
+  "author": "andrienko <evolmate@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@kodawari/core" : "0.0.1"
+  }
+}

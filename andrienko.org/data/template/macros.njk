@@ -1,0 +1,15 @@
+{% macro topNav(nav) %}
+  <nav id="shtuka">
+    <ul>
+    {% for item in nav %}
+      {% if item %}
+        {% for title, url in item %}
+          <li><a href="{{ url }}">{{ title }}</a></li>
+        {% endfor %}
+      {% else %}
+        <li class="separator"></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+{% endmacro %}

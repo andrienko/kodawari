@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.42.2",
+  "pnpmVersion": "5.18.7",
+  "nodeSupportedVersionRange": ">=14.0.0 <15.0.0",
+
+  "suppressNodeLtsWarning": true,
+  "ensureConsistentVersions": true,
+  "telemetryEnabled": false,
+
+  "projects": [
+    {
+      "packageName": "@kodawari/builder",
+      "projectFolder": "build-tools",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@kodawari/common",
+      "projectFolder": "src/common"
+    },
+    {
+      "packageName": "@kodawari/core",
+      "projectFolder": "src/core"
+    },
+    {
+      "packageName": "andrienko.org",
+      "projectFolder": "andrienko.org"
+    }
+  ]
+}

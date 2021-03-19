@@ -1,0 +1,19 @@
+[
+  {
+    "message": "Because of the nature of Moore's law, anything that an extremely clever graphics programmer can do at one point can be replicated by a merely competent programmer some number of years later.",
+    "author": "John Carmack"
+  },
+  {
+    "message": "[Major Linux Problems on the Desktop](https://itvision.altervista.org/why.linux.is.not.ready.for.the.desktop.current.html)",
+    "subMessage": "Список убедительных причин, почему Линукс до сих пор не вполне готов для использования на десктопе"
+  },
+  {
+    "message": "[Game engine black book: Doom](https://fabiensanglard.net/gebbdoom/), там же есть [PDF](https://fabiensanglard.net/gebbdoom.pdf)",
+    "subMessage": "Вдохновляющая книга с описанием истории создания и особенностей работы движка DooM и железа, для которого его писали"
+  },
+  {
+    "message": "[За что не любят ботанов](https://olegmakarenko.ru/38494.html), перевод статьи на русский Олега Макаренко",
+    "subMessage": "[Оригинал статьи](http://paulgraham.com/nerds.html) на сайте Пола Грэма, автора книги [ANSI Common Lisp](http://www.paulgraham.com/acl.html)",
+    "url": "https://olegmakarenko.ru/38494.html"
+  }
+]

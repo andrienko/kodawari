@@ -1,0 +1,11 @@
+{
+  "name": "@kodawari/common",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "description": "Whatever...",
+  "scripts": {
+    "build": ""
+  },
+  "author": "andrienko <evolmate@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+
+{% block content %}
+  <body class="bright">
+  {% include "blocks/navMain.njk" %}
+  {% include "content.njk" %}
+
+  <main>
+    {% for row in data.feed %}
+      <div class="feedLine">
+        <div class="message">{{ md(row.message) }}</div>
+        {% if row.subMessage %}<div class="subMessage">{{ md(row.subMessage) }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </main>
+
+  </body>
+{% endblock %}

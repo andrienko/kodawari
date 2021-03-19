@@ -1,0 +1,20 @@
+{
+  "language": "ru",
+  "strings": {
+    "telegram": "https://t.me/lowpolybrain",
+    "linkedin": "https://www.linkedin.com/in/lowpoly/",
+    "mail": "ilia@andrienko.org"
+  },
+  "languageSpecificStrings": {
+    "ru": {
+      "metaGenerator": "Шустрые лапы",
+      "metaDescription": "Сайт Ильи Андриенко, веб-программиста и просто хорошего человека. Верю в веб для людей, а не для поисковых роботов и инфобизнесменов.",
+      "authorName": "Илья Андриенко"
+    },
+    "en": {
+      "metaGenerator": "VIM 8.1",
+      "metaDescription": "Home site of Ilia Andrienko, a passionate web developer. I believe web exists for humans, not for robots.",
+      "authorName": "Ilia Andrienko"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+
+{% block content %}
+  <body class="bright">
+  {% include "blocks/navMain.njk" %}
+  {% include "content.njk" %}
+
+  <main class="links">
+    {% for section, links in data.links %}
+      <h3>{{ section }}</h3>
+      <p>
+        {% for title, link in links %}
+          <span><a href="{{ link }}">{{ title }}</a></span>
+        {% endfor %}
+      </p>
+    {% endfor %}
+  </main>
+
+  </body>
+{% endblock %}
