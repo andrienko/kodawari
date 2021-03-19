@@ -9,6 +9,16 @@ it. Not trying to make this thing universal or anything.
 Maybe some day it will become something more that just what it is now, maybe an external tool with plugins and stuff,
 but definitely not yet. I keep the future in mind while writing it.
 
+## Building
+
+In order to build - you will need [rush](https://rushjs.io/). Get it by `npm i -g @microsoft/rush`
+and then do
+
+    rush install
+    rush build
+
+That should build everything.
+
 ## Content
 By default, all the data the website has should be inside the `data` folder. So, different `data` folder means the
 different website.
