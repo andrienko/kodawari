@@ -2,11 +2,12 @@
   "name": "@kodawari/core",
   "version": "0.0.1",
   "description": "Whatever...",
+  "main": "dist/index.js",
   "scripts": {
     "build": "kbuild ts index.ts --clean"
   },
   "bin": {
-    "kodawari": "dist/index.js"
+    "kodawari": "bin.js"
   },
   "author": "andrienko <evolmate@gmail.com>",
   "license": "MIT",
