@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Whatever...",
   "scripts": {
-    "build": "run-s clean build-ts",
-    "clean": "kbuild clean",
-    "build-ts": "kbuild ts index.ts"
+    "build": "kbuild ts index.ts --clean"
   },
   "bin": {
     "kodawari": "dist/index.js"

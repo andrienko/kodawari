@@ -20,6 +20,7 @@ dependencies:
   lodash: 4.17.21
   marked: 1.2.9
   mkdirp: 1.0.4
+  node-npx: 1.5.0
   normalize-url: 5.3.0
   npm-run-all: 4.1.5
   nunjucks: 3.2.3
@@ -348,6 +349,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-1shh9DQ23L16oXSZKB2JxpL7iMy2E0S9d517ptA1P8iw0alkPtQcrKH7ru31rYtKwF499HkTu+DRzq3TCKDFRQ==
+  /delay/4.4.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-aL3AhqtfhOlT/3ai6sWXeqwnw63ATNpnUiN4HL7x9q+My5QtHlO3OIkasmug9LKzpheLdmUKGRKnYXYAS7FQkQ==
   /dir-glob/3.0.1:
     dependencies:
       path-type: 4.0.0
@@ -964,6 +971,14 @@ packages:
     dev: false
     resolution:
       integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+  /node-npx/1.5.0:
+    dependencies:
+      cross-spawn: 6.0.5
+      delay: 4.4.1
+      resolve-as-bin: 2.1.0
+    dev: false
+    resolution:
+      integrity: sha512-w/DfdbkpAuyh9gad8fD8zklBFsMQQ7+mPBGJ5dI3F9CCFwCGyVmR86fcha1oWDrW9MeDKcgDmW977SBbryUdoA==
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
@@ -1190,6 +1205,12 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+  /resolve-as-bin/2.1.0:
+    dependencies:
+      cross-spawn: 6.0.5
+    dev: false
+    resolution:
+      integrity: sha512-ileUuPIOP+xj+GS/d/EbB2XqRA8T2IeZTFkMggNIW2Mo72VyBMbq+HvIAxdW0ED9D44aEzJwHvUtbMm2PJT5Kw==
   /resolve/1.17.0:
     dependencies:
       path-parse: 1.0.6
@@ -1553,7 +1574,7 @@ packages:
     dev: false
     name: '@rush-temp/andrienko.org'
     resolution:
-      integrity: sha512-VLpQVuRUu/MWz+BqBHWV6hK2nNNkxq+c2zXcqNcF82VmE0wh2WmI/20pLmOY4+xD/kLZdb6ZRnjspJz3Wj22mw==
+      integrity: sha512-+DpI5TRbZxYFDi8VcA9KUSvRRSyYH/JzcvtsDHjja7GSCK9cxibjt2EUi0o7kpGOM2p/v0SAdFN4kAvSiva3YQ==
       tarball: file:projects/andrienko.org.tgz
     version: 0.0.0
   file:projects/builder.tgz:
@@ -1561,12 +1582,13 @@ packages:
       '@esbuild-plugins/node-resolve': 0.0.14_esbuild@0.9.2
       del: 6.0.0
       esbuild: 0.9.2
+      node-npx: 1.5.0
       npm-run-all: 4.1.5
       yargs: 16.2.0
     dev: false
     name: '@rush-temp/builder'
     resolution:
-      integrity: sha512-Ab4MCIMsq0otmc8BLiuG7LWeoU5GZt9EtvzH5I7qQEhCE5uYbGC0OY07mVYtmWECpVs5nScDtQjea2GHKV1sBA==
+      integrity: sha512-gUYYeeElcU5xcQexv/rMF6Cr7LBz5meHPER19s4FGqs3CEXRzjYU03XnC07lpXpySLN12afrCuG46odcDwdGPQ==
       tarball: file:projects/builder.tgz
     version: 0.0.0
   file:projects/common.tgz:
@@ -1634,6 +1656,7 @@ specifiers:
   lodash: ^4.17.20
   marked: ^1.1.0
   mkdirp: ^1.0.4
+  node-npx: ^1.5.0
   normalize-url: ^5.0.0
   npm-run-all: ^4.1.5
   nunjucks: ^3.2.1

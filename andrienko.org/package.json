@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "andrienko.org website source",
   "scripts": {
-    "build": "kodawari"
+    "build": "kbuild x kodawari --clean=result"
   },
   "author": "andrienko <evolmate@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@kodawari/core" : "0.0.1"
+    "@kodawari/core" : "0.0.1",
+    "@kodawari/builder" : "0.0.1"
   }
 }
