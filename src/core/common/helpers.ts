@@ -122,8 +122,17 @@ export function mapPromise<IT, RIT>(items: IT[], prF: (items: IT) => Promise<RIT
   return Promise.all(items.map(prF)) as Promise<RIT[]>;
 }
 
-export const relativePath = (targetAbsolutePath: string, thisAbsolutePath: string) => {
-  return path.relative(thisAbsolutePath, targetAbsolutePath);
+const fixWinURLSegmentSlashes = (pathToFix: string) => {
+  if(path.sep === '\\'){
+    return pathToFix.replace(/\\/g, '/')
+  }
+  return pathToFix;
+}
+
+// This is unreliable, unpredictable and just wrong. I doubt it will work as expected.
+// TODO: Fix this to, maybe, work for URLs too.
+export const relativeURLSegment = (targetAbsolutePath: string, thisAbsolutePath: string) => {
+  return fixWinURLSegmentSlashes(path.relative(thisAbsolutePath, targetAbsolutePath));
 };
 
 export const parseDate = (dateAsString?: string): Date | null => {

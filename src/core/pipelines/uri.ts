@@ -1,5 +1,5 @@
 import { Asset, Config, Page, URIInformation, URIType } from '../common/types';
-import { getStringsForLanguage, relativePath, logger } from '../common/helpers';
+import { getStringsForLanguage, relativeURLSegment, logger } from '../common/helpers';
 import { get } from 'lodash';
 
 const getURIRegex = (): RegExp => {
@@ -41,7 +41,7 @@ export const replaceURIs = async (files: Page[], config: Config, assets: Asset[]
             return uri;
           } else {
             const assetUrl = config.baseUrl + '/' + asset.targetPath + '/' + asset.fileName;
-            return relativePath(assetUrl, page.url);
+            return relativeURLSegment(assetUrl, page.url);
           }
         }
 
@@ -57,7 +57,7 @@ export const replaceURIs = async (files: Page[], config: Config, assets: Asset[]
         if (uriType === URIType.Page) {
           if (pagesBySlug[uriBody]) {
             const addition = config.addIndexToURL ? '/' + config.renderIndexFile : '';
-            return relativePath(pagesBySlug[uriBody].url + addition, page.url);
+            return relativeURLSegment(pagesBySlug[uriBody].url + addition, page.url);
           } else {
             logger.warn(`Page with slug ${uriBody} not found`);
           }
@@ -65,7 +65,7 @@ export const replaceURIs = async (files: Page[], config: Config, assets: Asset[]
 
         if (uriType === URIType.Root) {
           const rootFileURL = config.baseUrl + '/' + uriBody;
-          return relativePath(rootFileURL, page.url);
+          return relativeURLSegment(rootFileURL, page.url);
         }
 
         return uri;
