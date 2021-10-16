@@ -6,11 +6,12 @@
   {% include "blocks/navMain.njk" %}
   {% include "content.njk" %}
 
-  <main>
-    {% for row in data.feed %}
+  <main class="feed">
+    {% for row in data.feed.reverse() %}
       <div class="feedLine">
         <div class="message">{{ md(row.message) }}</div>
         {% if row.subMessage %}<div class="subMessage">{{ md(row.subMessage) }}</div>{% endif %}
+        {% if row.author %}<div class="author">{{ md(row.author) }}</div>{% endif %}
       </div>
     {% endfor %}
   </main>
